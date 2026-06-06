@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
-        policy.WithOrigins("http://localhost:4200", "https://asp-net-core-v-8-leads-1.onrender.com")
+        policy.WithOrigins("http://localhost:4200", "https://leads-ui-git-backup-before-host2-sea6580gmailcoms-projects.vercel.app")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
