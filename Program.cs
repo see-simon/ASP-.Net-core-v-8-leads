@@ -9,7 +9,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular", policy =>
     {
-        policy.WithOrigins("http://localhost:4200")
+        policy.WithOrigins("http://localhost:4200", "https://asp-net-core-v-8-leads-1.onrender.com")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -35,7 +35,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
 app.UseCors("AllowAngular");
 app.UseAuthorization();
 app.MapControllers();
