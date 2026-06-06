@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SmartFibreAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a39cb18611cd81afc7b8097dcfa316192fcd7e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9e1819538f4b016937c7c5a9cfb7b55087beb26")]
 [assembly: System.Reflection.AssemblyProductAttribute("SmartFibreAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SmartFibreAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
