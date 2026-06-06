@@ -109,3 +109,4 @@ C:\Users\mahlatse\Desktop\SmartFibreAPI\obj\Debug\net10.0\refint\SmartFibreAPI.d
 C:\Users\mahlatse\Desktop\SmartFibreAPI\obj\Debug\net10.0\SmartFibreAPI.pdb
 C:\Users\mahlatse\Desktop\SmartFibreAPI\obj\Debug\net10.0\SmartFibreAPI.genruntimeconfig.cache
 C:\Users\mahlatse\Desktop\SmartFibreAPI\obj\Debug\net10.0\ref\SmartFibreAPI.dll
+C:\Users\mahlatse\Desktop\SmartFibreAPI\obj\Debug\net10.0\SmartFibreAPI.sourcelink.json
