@@ -46,8 +46,7 @@ namespace SmartFibreAPI.Controllers
             catch (Exception ex)
             {
                 Console.WriteLine($"Email sending failed: {ex.Message}");
-                Console.WriteLine($"Stack trace: {ex.StackTrace}");
-                return StatusCode(500, $"Lead saved but email failed: {ex.Message}");
+                // Don't return 500 — lead is already saved successfully
             }
 
             return CreatedAtAction(nameof(GetLeads), new { id = lead.Id }, lead);
